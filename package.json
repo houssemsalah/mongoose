@@ -1,0 +1,29 @@
+{
+  "name": "contact-worlshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   
+    "server": "nodemon server.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.9",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
